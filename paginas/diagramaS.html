@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="icon" type="image/png" href="../recursos/ico_u.png" />
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="../estilos/style-index.css">
+	<link rel="stylesheet" type="text/css" href="../estilos/diagramaS.css">
+</head>
+
+<body>
+	<!--header-->
+	<div id="header">
+		<img src="../recursos/logo_unad.png" id="logo_unad" />
+		<p id="titulo_header">Diagramas de interacción</p>
+		<div id="ico_telefono">
+			<img src="../recursos/telefono_ico.png" id="telefono_img">
+		</div>
+		<p id="text_tel_header">(+32) 89734246</p>
+	</div>
+	<!--fin header-->
+
+	<!--iconos redes-->	
+	<div id="r_sociales">
+		<a href="https://www.facebook.com/UniversidadUNAD/">
+			<img src="../recursos/ico_facebook.png" id="facebook_img">
+		</a>
+
+		<a href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
+			<img src="../recursos/ico_twitter.png" id="tw_img">
+		</a>
+
+		<a href="https://www.pinterest.es/pin/827536500248926650/?lp=true">
+			<img src="../recursos/ico_pinterest.png" id="ico_pinterest_img">
+		</a>
+	</div>
+	<!--fin iconos redes-->	
+
+	<div id="cuerpo">
+		<!--menu-->
+		<div id="menu">
+			<ul id="menu_var">
+				<li><a href="../index.html">Inicio</li></a>
+				<li><a href="?">Diagrama de secuencia</li></a>
+				<li><a href="diagramaC.html">Diagrama de colaboración</li></a>
+			</ul>
+		</div>
+
+		<!--fin menu-->
+
+		<!--recuadro header-->	
+		<div id="recuadro_header">
+			<h2 id="titulos">Diagrama de secuencia</h2>
+			<p id="recuadro_texto">
+				
+				Describe un comportamiento dinámico de los mensajes intercambiados por los objetos, tales interacciones suceden con el tiempo.
+ 
+Representación:
+El eje vertical representa el tiempo y el eje horizontal los objetos. 
+Los objetos tienen una línea de vida (intervalo de tiempo de ese objeto) y los focos de control (periodo de tiempo en el cual el objeto se encuentra ejecutando alguna operación).
+A continuación, se muestran los siguientes componentes del diagrama de secuencia:
+			</p>
+           
+             
+		</div>
+		<!--fin recuadro header-->
+
+
+
+
+		<!--diagrama izq y der-->
+		<div id="diagrama_1">
+			<img src="../recursos/Objetoclase.png" id="img_diagrama1" />
+		</div>
+		<div id="text-diagrama1">
+			<p id="textod1">Objeto Clase: o el rol de la clase demuestra como el objeto se comporta en el contexto.</p>
+			<p id="textod1">
+				Activaciones: Representan el tiempo que un objeto tiene para ejecutar una tarea.
+			</p>
+		</div>
+
+		<div id="text-diagrama2">
+			<p id="textod2">
+				Mensajes: Son flechas que representan comunicacion entre objetos.
+			</p>
+		</div>
+
+		<div id="diagrama_2">
+			<img src="../recursos/Mensajes.png" id="img_diagrama2" />
+		</div>
+
+		<div id="diagrama_3">
+			<img src="../recursos/Tipomensaje.png" id="img_diagrama3" />
+		</div>
+
+		<div id="diagrama_4">
+			<img src="../recursos/Lineasdevida.png" id="img_diagrama4" />
+		</div>
+
+		<div id="text-diagrama4">
+			<p id="textod4">
+				Líneas de vida: Se diferencian al ser líneas de puntos verticales,  indican la presencia del objeto durante el tiempo.
+			</p>
+		</div>
+        
+        <div id="diagrama_5">
+			<img src="../recursos/destruir.png" id="img_diagrama5" />
+		</div>
+    
+    	<div id="text-diagrama5">
+			<p id="textod5">
+				Destrucción de Objetos: pueden ser eliminados usando una flecha etiquetada '<>' que apunta a una X.
+			</p>
+		</div>
+
+		 <div id="diagrama_6">
+			<img src="../recursos/Loops.png" id="img_diagrama6" />
+		</div>
+
+		<div id="text-diagrama6">
+			<p id="textod6">
+				Loops: Una repetición o loop se representa como rectángulo. La condición para abandonar el loop se coloca en la parte inferior entre corchetes [ ].
+			</p>
+		</div>
+		
+		<!--fin diagrama izq y der-->
+
+		<!--formulario-->
+		<form action="#" method="" id="formulario_datos_2">
+			<label>Nombre</label><br />
+
+			<input type="text" name="nombre_f" id ="nombre_f" placeholder="Ingrese su nombre" required /><br />
+			<label>Comentario</label><br />
+
+			<input type="text" name="correo_f" id ="correo_f" placeholder="Correo" required /><br />
+			<label>Comentario</label><br />
+
+			<input type="text" id="comentario_f" name="comentario_f" required/><br />
+			<input type="submit" id="send_data" name="send_data">
+		</form>
+		<!--fin formulario-->
+		<h2 id="text_video">Video Explicativo ¿Cómo hacer un diagrama de seciencia?</h2>
+		<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Q1kH7XKxK5I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="video_explicativo"></iframe>
+
+	</div>
+	
+
+</body>
+</html>
